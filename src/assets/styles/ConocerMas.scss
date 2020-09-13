@@ -1,0 +1,68 @@
+.Conteiner-Conocer{
+    height: 230%;
+    display: grid;
+    grid-template-rows: 100px 500px 1fr;
+}
+.conteiner-Superior{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Public{
+    height: 50px;
+    width: 280px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.Public h2{
+    margin-left: 20px;
+}
+.superior-Titulo{
+    margin-top: 30px;
+}
+
+.Carusel{
+    width: 1400px;
+    margin-left: 100px;
+}
+
+.Carusel img{
+ margin-top: 50px;
+ height: 500px;
+ width: 800px;
+}
+
+
+.Izq-Card{
+  border:1px solid black;
+  margin-top: 150px;
+  width: 550px;
+  height: 200px;
+  margin-left: 150px;
+  border-radius: 20px;
+  background-color: #01a9b4;
+}
+.Izq-Card p{
+    text-justify: center;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.inferior-Conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.conteiner-Izq h1{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+} 
+.conteiner-Izq h4{
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+.conteiner-Izq  h6{
+    margin-left: 100px;
+}

@@ -1,0 +1,51 @@
+.Principal{
+    height: 350%;
+    display: grid;
+    grid-template-columns: 1fr 700px;
+
+}
+
+.Post-img img{
+   height: 300px;
+   width: 100%;
+}
+
+
+.Principal-Izq{
+  display: grid;
+  grid-template-rows: 200px 1fr;
+}
+
+.Principal-Der{
+  position: fixed;
+  margin-left: 450px;
+}
+
+.Sabias{
+    display: grid;
+    grid-template-rows: 120px 1fr;
+}
+.Sabias-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.Sabias-post{
+    background-color: #4f8a8b;
+    height: 500px;
+    width: 500px;
+    margin-left: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+.Sabias-post_title{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.Sabias-post_text{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin: 50px;
+}

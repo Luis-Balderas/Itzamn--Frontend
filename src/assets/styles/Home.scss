@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Istok+Web&display=swap');
+
+.Home{
+  .Home-titulo{
+    height: 110px;
+    width: 100%;
+    background-color: #164463;
+    color: white;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    .titulo-h{
+      display: block;
+      h1{
+        font-size: 80px;
+      }
+    }
+  }
+
+  .Carousel{
+    img{
+      height: 570px;
+    }
+    .Texto{
+      margin-bottom: 50px;
+      background-color: #000000b7;
+      border-radius: 20px;
+      h1{
+        font-size: 70px;
+      }
+    }
+  }
+  
+}
+
+
+.button{
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 40px;
+    background-color: #4f8a8b;
+    margin-bottom: 50px;
+    border:none;
+}
+button:hover{
+  background-color: #326d6e;
+}
+
+
+
+
+
+
+

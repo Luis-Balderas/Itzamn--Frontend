@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+body{
+    
+    margin: 0;
+    padding: 0;
+    color:white;
+    height: 100%;
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+/*Header*/
+.Header {
+    height: 50px;
+    background-color: #ffcb74;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .Logo{
+        img{
+            height: 40px;
+            margin-top: 5px;
+            margin-left: 50px;
+        }
+    }
+    .Buscador{
+        &-Conteiner{ 
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            height: 30px;
+            margin-top: 10px;
+            input{
+                width: 200px;
+                height: 30px;
+            }
+            button{
+                height: 30px;
+                width: 100px;
+                background-color: #4f8a8b;
+                color: white;
+                border: none;
+                box-shadow: 5px 5px 8px get-opacity(#ffffff, 0.5);
+            }
+            button:hover{
+                background-color: #326d6e;
+            }
+        }
+    
+    }
+    .Perfil{
+        display: flex;
+        justify-content: flex-end;
+        img{
+            margin-top: 5px;
+            height: 40px;
+            margin-right: 20px;
+            border-radius: 50px;
+        }
+        button{
+            margin-top: 10px;
+            margin-right: 20px;
+            height: 30px;
+            width: 150px;
+            color: white;
+            background-color: #4f8a8b;
+            box-shadow: 5px 5px 8px get-opacity(#ffffff, 0.5);
+        }
+        button:hover{
+            background-color: #326d6e;
+        }
+        .Header__menu{
+            ul{
+              display: none;
+              list-style: none;
+              padding: 0px;
+              margin: 0px 0px 0px -60px;
+              position: absolute;
+              width: 100px;
+              text-align: right;
+              li{
+                 a{
+                     color: white;
+                     text-decoration: none;
+                 }
+                 a:hover{
+                     text-decoration: underline;
+                 }
+              }
+            }
+        }
+        .Header__menu:hover ul, ul:hover{
+            display: block;
+        }
+        .Header__menu--profile{
+            display: flex;
+            margin-right: 8px;
+            width: 70px;
+        }
+    }
+}
