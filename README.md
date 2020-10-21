@@ -35,7 +35,7 @@ Aplicación web Desktop First desarrollada con tecnologías:
 
 
 ### Autores 
-* Desarrollador Backend [Luis Balderas](https://github.com/Luis-Balderas).
+* Desarrollador Backend-Frontend [Luis Balderas](https://github.com/Luis-Balderas).
 
 ###  Sitios y diseños de referencia
 
