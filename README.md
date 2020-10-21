@@ -1,5 +1,5 @@
 # Itzamn--Frontend
-Sistema Booking para el servicio de turismo enfocado en experiencias y eventos.
+Sistema de busqueda de gastronomia y cultura mexicana 
 
 ### Pre-requisitos
 Para instalar el software se debe disponer de:
