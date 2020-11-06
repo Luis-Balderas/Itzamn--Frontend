@@ -1,0 +1,62 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    height: 86vh;
+    .Card{
+        display: flex;
+        height: 500px;
+        width: 400px;
+        margin-top: 100px;
+        border-radius: 20px;
+        color: white;
+        background-color: #164463;
+        h1{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        .Name{
+            height: 40px;
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 10px;
+        }
+        .Email{
+            height: 40px;
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 10px;
+        }
+        .Password{
+            height: 40px;
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 10px;
+        }
+        label{
+           margin-left: 10%;
+        }
+        button{
+            height: 50px;
+            width: 80%;
+            margin: 10%;
+            margin-top: 50px;
+            border: none;
+            border-radius: 20px;
+            background-color: #4f8a8b;
+            color: white;
+        }
+        button:hover{
+            background-color: #326d6e;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+    }
+}

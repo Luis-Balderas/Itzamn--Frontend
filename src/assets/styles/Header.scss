@@ -10,11 +10,14 @@ body{
 
 
 /*Header*/
+.isLogin, .isRegister {
+    background-color: #ffcb74;
+}
 .Header {
     height: 50px;
     background-color: #ffcb74;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     .Logo{
         img{
             height: 40px;
@@ -22,64 +25,30 @@ body{
             margin-left: 50px;
         }
     }
-    .Buscador{
-        &-Conteiner{ 
-            display: flex;
-            justify-content: space-between;
-            width: 500px;
-            height: 30px;
-            margin-top: 10px;
-            input{
-                width: 200px;
-                height: 30px;
-            }
-            button{
-                height: 30px;
-                width: 100px;
-                background-color: #4f8a8b;
-                color: white;
-                border: none;
-                box-shadow: 5px 5px 8px get-opacity(#ffffff, 0.5);
-            }
-            button:hover{
-                background-color: #326d6e;
-            }
-        }
-    
-    }
     .Perfil{
         display: flex;
         justify-content: flex-end;
+        margin-left: 50px;
         img{
             margin-top: 5px;
             height: 40px;
             margin-right: 20px;
             border-radius: 50px;
         }
-        button{
-            margin-top: 10px;
-            margin-right: 20px;
-            height: 30px;
-            width: 150px;
-            color: white;
-            background-color: #4f8a8b;
-            box-shadow: 5px 5px 8px get-opacity(#ffffff, 0.5);
-        }
-        button:hover{
-            background-color: #326d6e;
-        }
+ 
         .Header__menu{
             ul{
               display: none;
               list-style: none;
               padding: 0px;
-              margin: 0px 0px 0px -60px;
+              margin: 0px 0px 0px -35px;
               position: absolute;
               width: 100px;
               text-align: right;
               li{
                  a{
-                     color: white;
+                     background-color:#4f8a8b;
+                     color: black;
                      text-decoration: none;
                  }
                  a:hover{
@@ -98,3 +67,4 @@ body{
         }
     }
 }
+

@@ -1,0 +1,26 @@
+.Card{            
+    width: 100%;
+    border: none;
+    .Cards-Container{
+        height: 550px;
+        width: 600px;
+        margin: 200px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        border: 1px solid black;
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+        }
+        p{
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 20px;
+        }
+    }
+}
